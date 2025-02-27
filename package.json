@@ -2,15 +2,24 @@
   "name": "boiler-bloom-theme",
   "displayName": "Boiler Bloom Theme",
   "description": "Just one more dark theme but hope you will like it.",
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "dotenv -e .env -- vsce publish --no-yarn -p $PERSONAL_ACCESS_TOKEN --skip-duplicate"
+  },
   "version": "0.0.1",
   "publisher": "matheussatoshi",
-  "icon": "boiler-bloom.png",
+  "icon": "icon.png",
   "engines": {
-    "vscode": "^1.65.2"
+    "vscode": "^1.22.0"
   },
   "categories": [
     "Themes"
   ],
+  "homepage": "https://github.com/matheussatoshi/boiler-bloom-theme",
+  "author": {
+    "name": "matheussatoshi",
+    "email": "matheussdev3@gmail.com"
+  },
   "galleryBanner": {
     "color": "#141616",
     "theme": "dark"
@@ -20,12 +29,17 @@
       {
         "label": "Boiler Bloom",
         "uiTheme": "vs-dark",
-        "path": "./themes/boiler-bloom.json"
+        "path": "./themes/boiler-bloom-theme.json"
       }
     ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/matheussatoshi/boiler-bloom-theme"
-  }
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2",
+    "dotenv-cli": "^8.0.0"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
