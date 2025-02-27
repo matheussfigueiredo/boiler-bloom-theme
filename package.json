@@ -1,0 +1,31 @@
+{
+  "name": "boiler-bloom-theme",
+  "displayName": "Boiler Bloom Theme",
+  "description": "Just one more dark theme but hope you will like it.",
+  "version": "0.0.1",
+  "publisher": "matheussatoshi",
+  "icon": "boiler-bloom.png",
+  "engines": {
+    "vscode": "^1.65.2"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#141616",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Boiler Bloom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boiler-bloom.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheussatoshi/boiler-bloom-theme"
+  }
+}
