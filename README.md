@@ -3,8 +3,9 @@
 ----------
 
 <p align="center">
-  <img alt="Boiler Bloom Theme Preview" src="https://github.com/user-attachments/assets/b878759b-80d3-4fb3-9ec8-a120f2f1ae0c" style="border-radius: 10px;">
+  <img alt="Boiler Bloom Theme Preview" src="https://github.com/user-attachments/assets/8ff6a392-53ac-4eb3-8455-bfbf039cc4c0" style="border-radius: 10px;">
 </p>
+
 
 ----------
 
